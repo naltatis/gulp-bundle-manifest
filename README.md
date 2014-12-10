@@ -5,8 +5,9 @@ Generates a manifest file from a list of input files. This may be usefull if you
 
 ```
 npm install gulp-bundle-manifest
-
 ```
+
+```js
 var bundleManifest = require("gulp-bundle-manifest");
 
 gulp.task("script-manifest", function () {
