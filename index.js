@@ -66,7 +66,7 @@ function bundleManifest(filename, opts) {
       return this.emit('end');
     }
 
-    var outFileContents = new Buffer(JSON.stringify(list, " ", " ")),
+    var outFileContents = new Buffer(JSON.stringify(list)),
       outFilePath = path.join(firstfile.base, filename);
 
     var outFile = new File({
