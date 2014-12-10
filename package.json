@@ -1,0 +1,29 @@
+{
+  "name": "gulp-bundle-manifest",
+  "version": "0.0.4",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through": "^2.3.6"
+  },
+  "scripts": {},
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "description": "README.md",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naltatis/gulp-bundle-manifest.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "naltatis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naltatis/gulp-bundle-manifest/issues"
+  },
+  "homepage": "https://github.com/naltatis/gulp-bundle-manifest"
+}
