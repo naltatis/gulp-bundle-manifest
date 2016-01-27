@@ -29,7 +29,11 @@ function bundleManifest(filename, opts) {
   function convertPathToModuleName(filepath) {
     // splitting by file system seperator and
     // always using slashes makes it OS agnostic
-    return filepath.split(path.sep).join("/");
+    var moduleName = filepath.split(path.sep).join("/");
+    if (opts.adjustModuleName) {
+      moduleName = opts.adjustModuleName(moduleName);
+    }
+    return moduleName;  
   }
 
   function addPrefix(filepath) {
